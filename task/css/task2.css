@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #22272f;
+}
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 4%; 
+}
+li{
+    margin-left: 20px;
+}
+a{
+    color: #e4e5e9;
+    background-color: #22272f;
+    border: 0;
+    padding: 3px 9px;
+    border-radius: 12px;
+    text-decoration: none;
+}
